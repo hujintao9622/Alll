@@ -78,7 +78,7 @@ public class HeadPicActivity extends BaseActivity<MoviewPresenter> implements Mo
 
     @Override
     public void onFailure(Throwable e) {
-        Toast.makeText(this, e + "", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, e +"", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.head)
